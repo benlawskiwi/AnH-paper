@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: AnH+.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-AnH+.bib
+Database file #2: AnH+.bib
+achemso 2018/02/05 v3.11a
+You've used 9 entries,
+            2536 wiz_defined-function locations,
+            818 strings with 8755 characters,
+and the built_in function-call counts, 3331 in all, are:
+= -- 255
+> -- 204
+< -- 5
++ -- 82
+- -- 73
+* -- 360
+:= -- 450
+add.period$ -- 16
+call.type$ -- 9
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 9
+duplicate$ -- 189
+empty$ -- 212
+format.name$ -- 80
+if$ -- 630
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 76
+num.names$ -- 24
+pop$ -- 16
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 9
+stack$ -- 0
+substring$ -- 178
+swap$ -- 205
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 60
+warning$ -- 0
+while$ -- 32
+width$ -- 0
+write$ -- 132

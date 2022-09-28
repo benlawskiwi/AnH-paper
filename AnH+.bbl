@@ -1,0 +1,105 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{9}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Campbell \latin{et~al.}(2015)Campbell, Holz, Gerlich, and
+  Maier]{cam15}
+Campbell,~E.~K.; Holz,~M.; Gerlich,~D.; Maier,~J.~P. Laboratory confirmation of
+  C60+ as the carrier of two diffuse interstellar bands. \emph{Nature}
+  \textbf{2015}, \emph{523}, 322--323\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Krechkivska \latin{et~al.}(2013)Krechkivska, Liu, Lee, Nauta, Kable,
+  and Schmidt]{kre13}
+Krechkivska,~O.; Liu,~Y.; Lee,~K. L.~K.; Nauta,~K.; Kable,~S.~H.;
+  Schmidt,~T.~W. Triple-Resonance Spectroscopy Reveals the Excitation Spectrum
+  of Very Cold, Isomer-Specific Protonated Naphthalene. \emph{The Journal of
+  Physical Chemistry Letters} \textbf{2013}, \emph{4}, 3728--3732\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jochims \latin{et~al.}(1999)Jochims, Baumgartel, and Leach]{joc99}
+Jochims,~H.~W.; Baumgartel,~H.; Leach,~S. Structure-dependent Photostability of
+  Polycyclic Aromatic Hydrocarbon Cations: Laboratory Studies and Astrophysical
+  Implications. \emph{The Astrophysical Journal} \textbf{1999}, \emph{512},
+  500--510\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Meyer \latin{et~al.}(2021)Meyer, Martini, Schiller, Zappa,
+  Krasnokutski, and Scheier]{mey21}
+Meyer,~M.; Martini,~P.; Schiller,~A.; Zappa,~F.; Krasnokutski,~S.~A.;
+  Scheier,~P. Electronic Spectroscopy of Anthracene Cations and Protonated
+  Anthracene in the Search for Carriers of Diffuse Interstellar Bands.
+  \emph{The Astrophysical Journal} \textbf{2021}, \emph{913}, 136\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Alata \latin{et~al.}(2010)Alata, Dedonder, Broquier, Marceca, and
+  Jouvet]{ala10}
+Alata,~I.; Dedonder,~C.; Broquier,~M.; Marceca,~E.; Jouvet,~C. Role of the
+  Charge-Transfer State in the Electronic Absorption of Protonated Hydrocarbon
+  Molecules. \emph{Journal of the American Chemical Society} \textbf{2010},
+  \emph{132}, 17483--17489\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Garkusha \latin{et~al.}(2011)Garkusha, Fulara, Nagy, and Maier]{gar11}
+Garkusha,~I.; Fulara,~J.; Nagy,~A.; Maier,~J.~P. {ELECTRONIC} {ABSORPTION}
+  {SPECTRA} {OF} {PROTONATED} {ANTHRACENES} {AND} {PHENANTHRENES}, {AND}
+  {THEIR} {NEUTRALS} {IN} {NEON} {MATRICES}. \emph{The Astrophysical Journal}
+  \textbf{2011}, \emph{728}, 131\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li and Luo(2021)Li, and Luo]{li21}
+Li,~J.; Luo,~Y. The correct assignment of vibrationally-resolved absorption
+  spectra of protonated anthracene isomers. \emph{Spectrochimica Acta Part A:
+  Molecular and Biomolecular Spectroscopy} \textbf{2021}, \emph{244},
+  118832\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Krechkivska \latin{et~al.}(2019)Krechkivska, Wilcox, Nauta, Kable, and
+  Schmidt]{kre19}
+Krechkivska,~O.; Wilcox,~C.~M.; Nauta,~K.; Kable,~S.~H.; Schmidt,~T.~W.
+  Quantum-Induced Symmetry Breaking in the Deuterated Dihydroanthracenyl
+  Radical. \emph{The Journal of Physical Chemistry A} \textbf{2019},
+  \emph{123}, 6711--6719\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
