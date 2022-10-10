@@ -1,0 +1,19 @@
+\documentclass[varwidth=23em]{standalone}
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{textpos}
+\begin{document}
+	\begin{tabular}[c]{p{20em}p{55em}}
+		\shortstack[c]{
+			\includegraphics[height=6cm]{LUMO}\\[-1.0cm] 
+		\includegraphics[height=6cm]{HOMO}}
+		& 
+		\shortstack[c]{
+			\includegraphics[height=6cm]{LUMO}\\[0.1cm]%\\[1cm]
+		\includegraphics[height=5cm]{LUMO}\\[0.3cm]}
+	\end{tabular}
+	\begin{textblock*}{5em}(10em, -17em)\sf LUMO\end{textblock*}
+%	\begin{textblock*}{5em}(.5em, -17em)\sf (a)\end{textblock*}
+	\begin{textblock*}{5em}(10em, -4em)\sf HOMO\end{textblock*}
+%	\begin{textblock*}{5em}(20em, -17em)\sf (b)\end{textblock*}
+\end{document}

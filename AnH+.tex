@@ -8,7 +8,13 @@
 %
 \author{Benjamin~A.~Laws}
 \affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
-\author{Olha Krechkivska, Callan M. Wilcox, Klaas Nauta, Scott H. Kable}
+\author{Olha Krechkivska}
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\author{Callan M. Wilcox}
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\author{Klaas Nauta}
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\author{Scott H. Kable}
 \affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
 \author{Timothy~W.~Schmidt} 
 \email{timothy.schmidt@unsw.edu.au}
@@ -36,21 +42,45 @@ Protonated anthracene has been studied previously, as its relatively high photos
 In this study, we prepare 9-hydroanthracenium cations exclusively in their vibrational ground state by 2-color resonant ionization of the corresponding 9-dihydroanthracenyl radical. Subsequent resonant photodissociation of the cation reveals the isomer-selected $\text{S}_0\rightarrow\text{S}_1$ spectrum of 9-hydroanthracenium. We show that the $C_{2v}$ ground state undergoes symmetry breaking in the excited state along a $b_2$ (in-plane) mode, effectively localizing the positive charge on one end of the molecule. This coordinate thus represents the abscissa of a Marcus diagram, and the excitation spectrum is interpreted from this standpoint.
 
 \section{Theoretical Considerations}
-Anthracene protonated at the 9-position is considered $C_{2v}$ until proven otherwise. If the sp$^3$ carbon is considered as an insulator, the chromophore will consist of two aromatic rings linked by an sp$^2$-hybridized bridging carbon. The frontier orbitals of the aromatic rings can be taken in even and off combinations, resulting in sets of $b_1$ and $a_2$ symmetry. Only the $b_1$ set can interact with the bridge, which is also $b_1$. Of the highest occupied aromatic $b_1$ orbitals, one will have a node at the tertiary carbon atom adjacent to the bridge, and is not expected to be strongly perturbed. The other mixes with the bridging p-orbital and is lowered in energy. This results in two relatively unperturbed aromatic, symmetry-adapted orbitals of $a_2$ and $b_1$ symmetry. The lowest-energy unoccupied orbital is largely located on the bridge. The frontier orbitals are shown in Figure.
+Anthracene protonated at the 9-position is considered $C_{2v}$ until proven otherwise. If the sp$^3$ carbon is considered as an insulator, the chromophore will consist of two aromatic rings linked by an sp$^2$-hybridized bridging carbon. The frontier orbitals of the aromatic rings can be taken in even and off combinations, resulting in sets of $b_1$ and $a_2$ symmetry. Only the $b_1$ set can interact with the bridge, which is also $b_1$. Of the highest occupied aromatic $b_1$ orbitals, one will have a node at the tertiary carbon atom adjacent to the bridge, and is not expected to be strongly perturbed. The other mixes with the bridging p-orbital and is lowered in energy. This results in two relatively unperturbed aromatic, symmetry-adapted orbitals of $a_2$ and $b_1$ symmetry. The lowest-energy unoccupied orbital is largely located on the bridge. The frontier orbitals are shown in Figure~\ref{Fig:1}.
+
+\begin{figure} [h]
+	\includegraphics[width=0.2\textwidth]{figures/Figure1}
+	\caption{goat}
+	\label{Fig:1}
+\end{figure}
 
 The HOMO-LUMO transition of the cation is thus electron transfer from the aromatic rings to the bridge, corresponding to hole-transfer from the bridge onto the aromatic rings. This brings about two near-degenerate transitions to states of $A_1$ and $B_2$ symmetry. Distortion along a $b_2$ mode will reduce the point group to $C_s$ and render both these excited states $A'$. The interaction between these two states could potentially push the lower state to an energy below that of the $C_{2v}$ geometry.
 
 This was confirmed by quantum chemical calculations presented in this work. The ground state geometry was calculated at both the M06-2X/cc-pvtz and CCSD/cc-pvdz levels of theory, with both calculations converging to a planar $C_{2v}$ geometry. All frequencies were found to be real, indicating a true minimum energy. Corresponding TDDFT and EOM-CCSD excited state calculations were also computed for the S$_1$ state, which converged to a planar $C_s$ geometry. This geometry arises from the charge transfer from the bridge onto one of the aromatic rings, causing an in-plane $b_2$ distortion. To interrogate this charge transfer process, a transition state search on the S$_1$ surface was also carried out at the M06-2X/cc-pvtz level using the Berny algorithm of Gaussain16. This found a $C_{2v}$ geometry with one imaginary frequency, 35~cm$^{-1}$ above the $C_s$ ground state.
 
-The pathway from the $C_{2v}$ to $C_s$ geometry can be described by the intrinsic reaction coordinate (IRC). This was calculated in both the forward and reverse directions using Gaussian16 software and the HPC algorithm, calculating force constants at each step along the path. This produced a shallow double well potential, shown in Figure. The higher excited state surfaces were also calculated along the IRC coordinate. The surfaces resemble an avoided crossing, which suggests there will be a strong adiabatic interaction between the A and B states. A 2D surface map of both the forward and reverse IRC directions is shown in Figure, showing the $C_{2v}$ saddle point and the two $C_s$ global minima. The coordinate represents the charge hoping between the two aromatic rings.  
+The pathway from the $C_{2v}$ to $C_s$ geometry can be described by the intrinsic reaction coordinate (IRC). This was calculated in both the forward and reverse directions using Gaussian16 software and the HPC algorithm, calculating force constants at each step along the path. This produced a shallow double well potential, as shown in Figure~\ref{Fig:2}(a). The potential energy surface is shown across both the forward and reverse IRC directions, highlighting the $C_{2v}$ saddle point and the two $C_s$ global minima. The coordinate between the minima represents the charge hoping between the two aromatic rings. The higher excited $S_2$ and $S_3$ electronic state energies were also calculated along the IRC coordinate, as shown in Figure~\ref{Fig:2}(b). The surfaces resemble an avoided crossing, which suggests there may be a strong adiabatic interaction between the $S1~(^1A_1)$ and $S2~(^1B_2)$ states.  
 
-Electrostatic potential surfaces were also calculated at both the $C_{2v}$ and $C_s$ geometries, as shown in Figure. The surfaces show that the positive charge largely resides on the bridge at the ground state $C_{2v}$ geometry, then hops onto either of the aromatic rings at the excited $C_s$ geometry. This confirms that the shallow double well represents the abscissa of a Marcus charge transfer diagram, making protonated anthracene an excellent prototype for the study of intramolecular hole$-$transfer.
+\begin{figure} [h]
+	\includegraphics[width=0.8\textwidth]{figures/Figure2}
+	\caption{cat}
+	\label{Fig:2}
+\end{figure}
+
+To visualise the charge transfer, electrostatic potential surfaces were evaluated at both the $C_{2v}$ and $C_s$ geometries, as shown in Figure~\ref{Fig:3}. The surfaces show that the positive charge largely resides on the $sp2$ bridge at the ground state $C_{2v}$ geometry. During excitation to the $S1$ state, the hole hops onto one of the aromatic rings, where it remains localised at the excited $C_s$ geometry. This demonstrates that the shallow double well represents the abscissa of a Marcus charge transfer diagram, making protonated anthracene an excellent prototype for the study of intramolecular hole$-$transfer.
+
+\begin{figure} [h]
+	\includegraphics[width=0.8\textwidth]{figures/Fig3aa}
+	\caption{dog}
+	\label{Fig:3}
+\end{figure}
 
 \section{Results and Discussion}
 \subsection{9H-An+}
-The triple resonant photodissociation spectrum of protonated anthracene is shown in Figure. The cations were prepared by resonantly ionizing the neutrals at threshold, and as such we can be certain that the spectra correspond to protonation (deuteronation) at the 9-position, the $C_{2v}$ species. The spectra reveal a number of progressions, possibly indicating a large geometry change between the ground and excited states of the cation. While the lowest energy geometry for the excited state possess $C_s$ symmetry, as the transition state barrier (35~cm$^{-1}$) is below the zero point energy, we may treat the excited state as approximately $C_{2v}$. 
+The triple resonant photodissociation spectrum of protonated anthracene is shown in Figure~\ref{Fig:4}. The cations were prepared by resonantly ionizing the neutrals at threshold, and as such we can be certain that the spectra correspond to protonation (deuteronation) at the 9-position, the $C_{2v}$ species. The spectra reveal a number of progressions, possibly indicating a large geometry change between the ground and excited states of the cation. While the lowest energy geometry for the excited state possess $C_s$ symmetry, as the transition state barrier (35~cm$^{-1}$) is below the zero point energy, we may treat the excited state as approximately $C_{2v}$. 
 
-The $\text{S}_0\rightarrow \text{S}_1$ origin is at xxx~cm$^{-1}$, in agreement with the previous PIMS measurement by Alata~\emph{et al.}~\cite{ala10}, confirming their assignment to the 9H-An+ isomer. Multiple narrow transitions are observed up to 1,400~cm$^{-1}$ above the origin transition, that were not resolved in any of the previous studies. Spectral features below $\sim800~$cm$^{-1}$ appear sharp, with an average FWHM of $\sim xx~$cm$^{-1}$, while peaks at higher energies appear broader. This is likely due to the shorter dissociation lifetime of these excited vibrational states. It should also be noted that the relative intensity of peaks may be limited by saturation effects, where all of the resonant ground state cation signal is depleted.
+\begin{figure} [h]
+	\includegraphics[width=1\textwidth]{figures/9H-An+w}
+	\caption{dog}
+	\label{Fig:4}
+\end{figure}
+
+The $\text{S}_0\rightarrow \text{S}_1$ origin is at 20,341~cm$^{-1}$, in agreement with the previous PIMS measurement by Alata~\emph{et al.}~\cite{ala10}, confirming their assignment to the 9H-An+ isomer. Multiple narrow transitions are observed up to 1,400~cm$^{-1}$ above the origin transition, that were not resolved in any of the previous studies. Spectral features below $\sim800~$cm$^{-1}$ appear sharp, with an average FWHM of $\sim 2.6~$cm$^{-1}$, while peaks at higher energies appear broader. This is likely due to the shorter dissociation lifetime of these excited vibrational states. It should also be noted that the relative intensity of peaks may be limited by saturation effects, where all of the resonant ground state cation signal is depleted.
 
 As shown in Figure , most of the structure observed in the experimental spectrum may be accounted for by a standard Franck-Condon (FC) simulation. Vibrational frequency calculations were computed at the M06-2X/cc-pvtz level for both the Ground $C_{2v}$ and excited transition state $C_{2v}$ geometries. Overlaps between the ground and excited state vibrational wavefunctions were then calculated, including Duschinsky rotations, to simulate the vibronic spectrum. The resulting spectrum was dominated by progressions in the $6^n$, $8^n$, and $17^16^n$ modes. Excellent agreement between the simulation and experiment was obtained for the $6^n$ and $17^16^n$ progressions, however the pure FC simulation could not recreate the splitting observed near $\sim230~$cm$^{-1}$. 
 
@@ -101,9 +131,17 @@ Therefore, the strength of the possible Herzberg-Teller transitions may be estim
 
 By combining the information from the harmonic Franck-Condon, anharmonic resonances, and Herzberg-Teller calculations, the complete $S_0\rightarrow S_1$ spectrum could be simulated, as shown in Figure. The simulated spectrum resembles a close match to the experimental triple resonance spectrum, validating the shallow double well framework used in this work to describe the system. 
 
+\subsection{9D-An+}
+
+\begin{figure} [h]
+	\includegraphics[width=1\textwidth]{figures/9D-An+w}
+	\caption{dog}
+	\label{Fig:5}
+\end{figure}
+
 \begin{acknowledgement}
 	This research was supported by the Australian Research Council Discovery
-	Project Grants DP160102585 and DP190103151.  
+	Project Grant DP190103151.  
 \end{acknowledgement}
 
 % Create the reference section using BibTeX: 

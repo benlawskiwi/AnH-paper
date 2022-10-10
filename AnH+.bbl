@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{9}
+\begin{mcitethebibliography}{8}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -88,16 +88,6 @@ Li,~J.; Luo,~Y. The correct assignment of vibrationally-resolved absorption
   spectra of protonated anthracene isomers. \emph{Spectrochimica Acta Part A:
   Molecular and Biomolecular Spectroscopy} \textbf{2021}, \emph{244},
   118832\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Krechkivska \latin{et~al.}(2019)Krechkivska, Wilcox, Nauta, Kable, and
-  Schmidt]{kre19}
-Krechkivska,~O.; Wilcox,~C.~M.; Nauta,~K.; Kable,~S.~H.; Schmidt,~T.~W.
-  Quantum-Induced Symmetry Breaking in the Deuterated Dihydroanthracenyl
-  Radical. \emph{The Journal of Physical Chemistry A} \textbf{2019},
-  \emph{123}, 6711--6719\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
