@@ -82,13 +82,13 @@ The triple resonant photodissociation spectrum of protonated anthracene is shown
 
 The $\text{S}_0\rightarrow \text{S}_1$ origin is at 20,341~cm$^{-1}$, in agreement with the previous PIMS measurement by Alata~\emph{et al.}~\cite{ala10}, confirming their assignment to the 9H-An+ isomer. Multiple narrow transitions are observed up to 1,400~cm$^{-1}$ above the origin transition, that were not resolved in any of the previous studies. Spectral features below $\sim800~$cm$^{-1}$ appear sharp, with an average FWHM of $\sim 2.6~$cm$^{-1}$, while peaks at higher energies appear broader. This is likely due to the shorter dissociation lifetime of these excited vibrational states. It should also be noted that the relative intensity of peaks may be limited by saturation effects, where all of the resonant ground state cation signal is depleted.
 
-As shown in Figure~\ref{Fig:4}, most of the structure observed in the experimental spectrum may be accounted for by a standard Franck-Condon (FC) simulation. Vibrational frequency calculations were computed at the M06-2X/cc-pvtz level for both the Ground $C_{2v}$ and excited transition state $C_{2v}$ geometries. Overlaps between the ground and excited state vibrational wavefunctions were then calculated, including Duschinsky rotations, to simulate the vibronic spectrum. The resulting spectrum was dominated by progressions in the $a_1$ symmetric $2^n$, $2^n$, and $4^11^n$ modes. Excellent agreement between the simulation and experiment was obtained for the $1^n$ and $4^11^n$ progressions, however the pure FC simulation did not recreate the splitting observed near $\sim230~$cm$^{-1}$. 
+As shown in Figure~\ref{Fig:4}, most of the structure observed in the experimental spectrum may be accounted for by a standard Franck-Condon (FC) simulation. Vibrational frequency calculations were computed at the M06-2X/cc-pvtz level for both the Ground $C_{2v}$ and excited transition state $C_{2v}$ geometries. Overlaps between the ground and excited state vibrational wavefunctions were then calculated, including Duschinsky rotations, to simulate the vibronic spectrum. The resulting spectrum was dominated by progressions in the $a_1$ symmetric $1^n$, $2^n$, and $4^11^n$ modes. Excellent agreement between the simulation and experiment was obtained for the $1^n$ and $4^11^n$ progressions, however the pure FC simulation could not account for the splitting observed near $\sim230~$cm$^{-1}$. 
 
 To evaluate whether the splitting could be caused by a 1-2 Fermi resonance with the $1^1$ transition, anharmonic frequency analysis was performed using Generalised 2nd-order Vibrational Perturbation Theory, with 3rd and 4th derivatives also calculated at the M06-2X/cc-pvtz level. This revealed a large Fermi resonance between modes v$_2$(366~cm$^{-1}$) and 2$\times$v$_{36}$(186~cm$^{-1}$), with a coupling strength
 \begin{equation}
-W = \frac{\sqrt{\Delta^2-\Delta_0}}{2} =75.5~\text{cm}^{-1},
+W = \frac{\sqrt{\Delta^2-\Delta_0^2}}{2} =75.5~\text{cm}^{-1},
 \end{equation} 
-where $\Delta$ is the splitting with coupling, and $\Delta_0$ is the transition separation without coupling. Hence, the doublet feature at $\sim230~$cm$^{-1}$ is not from a Fermi resonance with mode $1^1$ as was expected, but instead from a large interaction between modes $2^1$ and $36^2$. The relative intensity of of the resonant peaks is given by,
+where $\Delta$ is the splitting with coupling, and $\Delta_0$ is the transition separation without coupling. Hence, the doublet feature at $\sim230~$cm$^{-1}$ is not from a Fermi resonance with transition $1^1$ as was expected, but instead from a large interaction between transitions $2^1$ and $36^2$. The relative intensity of the resonant peaks are given by,
 \begin{equation}
 \frac{I_{v2}}{I_{2\times v36}} = \frac{\left(\Delta+\Delta_0\right)}{\left(\Delta-\Delta_0\right)}=1.08.
 \end{equation}
@@ -103,7 +103,7 @@ To account for the nuclear-electronic interactions, the Herzberg-Teller expansio
 |\Psi_{S_1j} \rangle = |\psi_{S_1} \chi_{S_1j} \rangle + \gamma_{S_2k,S_1j}Q_n|\psi_{S_2} \chi_{S_2k}\rangle, 
 \label{eq:shorthand}
 \end{equation}
-where $\psi_{S_1}$ is the electronic wavefunction of the $S_1$ state, $\chi_{S_1j}$ is the vibronic wavefunction, $Q_n$ is the coupling coordinate, and $\gamma_{S_2k,S_1j}$ is the vibronic mixing coefficient.
+where $\psi_{S_n}$ is the electronic wavefunction of the $S_n$ state, $\chi_{S_nj}$ is the corresponding vibrational wavefunction, $Q_n$ is the coupling coordinate, and $\gamma_{S_2k,S_1j}$ is the vibronic mixing coefficient.
 
 The strength of any vibronically coupled transitions may be determined by examining the
 transition dipole moment. Substituting the $S_1$ state wavefunction from Eq.~(\ref{eq:shorthand}) into the $S_0\rightarrow S_1$ transition dipole moment gives,
@@ -111,40 +111,51 @@ transition dipole moment. Substituting the $S_1$ state wavefunction from Eq.~(\r
 \mu_{\alpha}&=\langle\Psi_{S_0}|\vec{\mu}_{\alpha}|\Psi_{S_1}\rangle\\
 &=\langle\psi_{S_0}|\vec{\mu}_{\alpha}|\psi_{S_1}\rangle\langle\chi_{S_0m}|\chi_{S_1j}\rangle +
 \gamma_{S_2k,S_1j}\langle\psi_{S_0}|\vec{\mu}_{\alpha}|\psi_{S_2}\rangle\langle\chi_{S_0m}|Q_n|\chi_{S_2k}\rangle\\
-&=\mu_{\alpha:0}^{S_1-S_0}\langle\chi_{S_0m}|\chi_{S_1j}\rangle + \gamma_{S_2k,S_1j}\mu_{\alpha:0}^{S_2-S_0}\langle\chi_{S_0m}|Q_n|\chi_{S_2k}\rangle,
+&=\mu_{\alpha}^{S_1-S_0}\langle\chi_{S_0m}|\chi_{S_1j}\rangle + \gamma_{S_2k,S_1j}\mu_{\alpha:0}^{S_2-S_0}\langle\chi_{S_0m}|Q_n|\chi_{S_2k}\rangle,
+\label{eq:tm1}
 \end{align}
-where the term $\mu_{\alpha:0}^{S_1-S_0}= \langle\psi_{S_0}|\vec{\mu}_{\alpha}|\psi_{S_1}\rangle$ represents the $\text{S0}~\rightarrow~\text{S1}$ electronic transition moment at the ground state geometry.
+where the term $\mu_{\alpha}^{S_1-S_0}= \langle\psi_{S_0}|\vec{\mu}_{\alpha}|\psi_{S_1}\rangle$ represents the $\text{S0}~\rightarrow~\text{S1}$ electronic transition moment at the ground state geometry along axis $\alpha$.
 
-Another way to describe the vibronic coupling dependence on the transition moment would be to expand the general $\mu_{\alpha:0}^{S_1-S_0}$ transition dipole function as a Taylor series in $Q_n$ about the ground state geometry,
+Another way to describe the vibronic coupling dependence on the transition moment would be to expand the general $\mu_{\alpha}^{S_1-S_0}$ transition dipole function as a Taylor series in $Q_n$ about the ground state geometry,
 \begin{equation}
-\mu_{\alpha} = \mu_{\alpha:0}^{S_1-S_0}\langle\chi_{S_0m}|\chi_{S_1j}\rangle + \left(\frac{\partial\mu_{\alpha}^{S_1-S_0}}{\partial Q_n}\right)_0 \langle\chi_{S_0m}|Q_n|\chi_{S_2k}\rangle + \dots 
+\mu_{\alpha} = \mu_{\alpha}^{S_1-S_0}\langle\chi_{S_0m}|\chi_{S_1j}\rangle + \left(\frac{\partial\mu_{\alpha}^{S_1-S_0}}{\partial Q_n}\right)_0 \langle\chi_{S_0m}|Q_n|\chi_{S_2k}\rangle + \dots 
 \label{eq:tm2}
 \end{equation} 
 Comparing Eq.~(\ref{eq:tm1}) and Eq.~(\ref{eq:tm2}) one obtains,
 \begin{equation}
-\left(\frac{\partial\mu_{\alpha}^{S_1-S_0}}{\partial Q_n}\right)_0 = \gamma_{S_2k,S_1j}\mu_{\alpha:0}^{S_2-S_0}.
+\left(\frac{\partial\mu_{\alpha}^{S_1-S_0}}{\partial Q_n}\right)_0 = \gamma_{S_2k,S_1j}\mu_{\alpha}^{S_2-S_0}.
 \label{eq:tm3}
 \end{equation}
 
-This shows that the strength of the possible Herzberg-Teller transitions may be estimated, by calculating the derivative of the transition dipole moment along each $b_2$ normal mode coordinate. This was calculated for all xx modes in protonated anthracene along each axis, with the dipole derivatives given in the Supplementary information. Two vibrational modes were found to have large transition dipole moment slopes, $v_{50}$ and $V_{57}$. The transition strengths of the Herzberg-Teller coupled modes can be quantified from the TDDFT calculations by implementing a linear variation of the dipole moment to include the first order term of the Taylor expansion about the equilibrium geometry. The resulting transition intensities were added to the simulation in Figure~\ref{Fig:4}, which included two dominant progressions $50^11^n$ and $57^11^n$. 
+This shows that the strength of the possible Herzberg-Teller transitions may be estimated by calculating the derivative of the transition dipole moment along each $b_2$ normal mode coordinate. This was calculated for all 22 $B_2$ modes in protonated anthracene, along each axis, with the dipole derivatives given in the Supplementary information. Two vibrational modes were found to have large transition dipole moment slopes, $v_{50}$ and $v_{57}$. The transition strengths of the Herzberg-Teller coupled modes can be quantified from the TDDFT calculations by implementing a linear variation of the dipole moment to include the first order term of the Taylor expansion about the equilibrium geometry. The resulting transition intensities were added to the simulation in Figure~\ref{Fig:4}, which included two dominant progressions $50^11^n$ and $57^11^n$. 
 
 
 By combining the information from the harmonic Franck-Condon, anharmonic resonances, and Herzberg-Teller calculations, the complete $S_0\rightarrow S_1$ spectrum could be simulated, as was shown in Figure~\ref{Fig:4}. The calculated spectrum resembles a close match to the experimental triple resonance spectrum, validating the shallow double well framework and $C_{2v}$ approximation used in this work to describe the system. The majority of the spectral structure can be accounted for by a series of combination bands involving the $v_1(a_1)$ symmetric in-plane wag mode, which is possibly involved in the initial excitation from the $C_{2v}$ ground state to the $C_{2v}$ excited transition state geometry. 
 
 \subsection{Charge-Transfer Coordinate}
-The molecular motion, which induces the hole-transfer from the bridging carbon to one of the aromatic rings, may be described by a combination of the normal mode coordinates. To determine which normal modes point in the same direction as the 
+The photo-induced charge-transfer process may be understood by considering the vibrational motion involved in the symmetry-breaking geometry change from $C_{2v}$ to $C_s$. The normal mode coordinates that point in the same direction as the intrinsic reaction coordinate can be identified by calculating the cosine similarity
+\begin{equation}
+	\cos(\theta) = \frac{Q_n\cdot Q_{\text{IRC}}}{||Q_n||~||Q_{\text{IRC}}||},
+\end{equation}
+where $Q_n$ is the normal mode coordinate and $Q_{\text{IRC}}$ is the intrinsic reaction coordinate from Figure~\ref{Fig:2}. The resulting similarities are shown for each vibrational mode in Figure~\ref{Fig5}.
 
-To inspect which vibrational modes may play a role in the hole-transfer from the bridging carbon to one of the aromatic rings,  
-
- transition from the initial $C_{2v}$ geometry to the $C_{s}$ geometry, 
+Unsurprisingly, the imaginary $b_2$ saddle point frequency was the closest to the IRC coordinate. Other in-plane $b_2$ modes also point in the same direction, including modes $v_{50}$ and $v_{57}$. These HT coupled modes are active in the triple resonance spectrum in Figure~\ref{Fig:4}, confirming that they are likely involved in the hole-transfer process. %add mode description
+Notably, no single mode lies predominately along the IRC, instead it must be described by a combination of different in-plane $b_2$ vibrations. Therefore, the charge-transfer process is not mediated by a single vibrational excitation.
 
 \subsection{9D-An+}
+To investigate the system further, the deuterated cation 9D-An$^+$ was also studied. The cations were prepared by resonantly ionizing the dihydroanthracenyl neutral radicals at threshold, generating cold cations deuterated exclusively at the 9-position. The resulting triple-resonant photodissociation spectrum of 9D-An$^+$ is shown in Figure~\ref{Fig:6}. The experimental spectrum is shown alongside a simulated spectrum that was constructed through the combination of FC, anharmonic, and HT vibronic coupling calculations, using the same method that was described for 9H-An$^+$ above.
 
 \begin{figure} [h]
 	\includegraphics[width=1\textwidth]{figures/9D-An+w}
 	\caption{dog}
-	\label{Fig:5}
+	\label{Fig:6}
 \end{figure}
+
+Only small changes are observed between the 9H-An$^+$ (Figure~\ref{Fig:4}) and the 9D-An$^+$ (Figure~\ref{Fig:6}) spectra. In the deuterated spectrum, the origin transition is shifted by xx~cm$^{-1}$ to zz~cm$^{-1}$. Again, the structure is dominated by progressions involving the $v_1 (a_1)$ symmetric in-plane wag mode, including progressions $1^n,~2^11^n,~$and$~4^11^n$. No Fermi resonance is observed in 9D-An$^+$, due to the shifts in the vibrational frequencies. A second peak is still observed near the $1^1$ transition, however it is much lower in intensity. This is assigned to the anharmonically coupled transition $36^1$. HT coupled transitions are also observed, including the prominent progression $50^11^n$.
+
+The effect of deuteration is much smaller than what has been observed previously for the neutral analogous dihydroanthracenyl radicals. Resonant two-colour two-photon ionisation (R2C2PI) spectra of isomer selected 9H-An and 9D-An reported previously by our group revealed a large change after deuteration, with a doubling of the number of spectral lines observed. This was attributed to quantum-induced symmetry breaking, where the addition of a deuterium atom causes an imbalance in the zero point energy, generating an asymmetric well potential where the effective (vibrationally averaged) geometry of the excited state is bent. Therefore, the absence of a similar effect in the cation spectra of this work confirms that the 9H-An$^+$ and 9D-An$^+$ excited state geometries are both planar.
+
+\section{Conclusions}
 
 \begin{acknowledgement}
 	This research was supported by the Australian Research Council Discovery
