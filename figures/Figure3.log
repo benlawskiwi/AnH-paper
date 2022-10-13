@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  12 OCT 2022 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  12 OCT 2022 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Figure1.tex
-(./Figure1.tex
+**Figure3.tex
+(./Figure3.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
@@ -100,8 +100,8 @@ Grid set 16 x 16 = 38.39343pt x 49.68562pt
 \TPboxrulesize=\dimen111
 \TP@tbargs=\toks16
 \TP@prevdepth=\dimen112
-) (./Figure1.aux)
-\openout1 = `Figure1.aux'.
+) (./Figure3.aux)
+\openout1 = `Figure3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -180,68 +180,70 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
-<Anth-47t.png, id=1, 768.8725pt x 600.2425pt>
-File: Anth-47t.png Graphic file (type png)
-<use Anth-47t.png>
-Package pdftex.def Info: Anth-47t.png  used on input line 8.
-(pdftex.def)             Requested size: 364.46738pt x 284.52756pt.
+<R1.jpg, id=1, 760.8425pt x 600.2425pt>
+File: R1.jpg Graphic file (type jpg)
+<use R1.jpg>
+Package pdftex.def Info: R1.jpg  used on input line 8.
+(pdftex.def)             Requested size: 216.38959pt x 170.71652pt.
+<T1.jpg, id=2, 760.8425pt x 600.2425pt>
+File: T1.jpg Graphic file (type jpg)
+<use T1.jpg>
+Package pdftex.def Info: T1.jpg  used on input line 12.
+(pdftex.def)             Requested size: 216.38959pt x 170.71652pt.
+<P1.jpg, id=3, 760.8425pt x 600.2425pt>
+File: P1.jpg Graphic file (type jpg)
+<use P1.jpg>
+Package pdftex.def Info: P1.jpg  used on input line 16.
+(pdftex.def)             Requested size: 216.38959pt x 170.71652pt.
 
-Overfull \hbox (104.46698pt too wide) in paragraph at lines 7--10
-[][]| 
+Overfull \hbox (36.0pt too wide) in paragraph at lines 6--19
+[][] 
  []
 
-<Anth-48t.png, id=3, 768.8725pt x 600.2425pt>
-File: Anth-48t.png Graphic file (type png)
-<use Anth-48t.png>
-Package pdftex.def Info: Anth-48t.png  used on input line 12.
-(pdftex.def)             Requested size: 364.46738pt x 284.52756pt.
+<ircCurvesw.pdf, id=4, 825.0825pt x 90.3375pt>
+File: ircCurvesw.pdf Graphic file (type pdf)
+<use ircCurvesw.pdf>
+Package pdftex.def Info: ircCurvesw.pdf  used on input line 22.
+(pdftex.def)             Requested size: 727.63599pt x 79.6678pt.
+File: T1.jpg Graphic file (type jpg)
+<use T1.jpg>
+Package pdftex.def Info: T1.jpg  used on input line 26.
+(pdftex.def)             Requested size: 216.38959pt x 170.71652pt.
+File: P1.jpg Graphic file (type jpg)
+<use P1.jpg>
+Package pdftex.def Info: P1.jpg  used on input line 30.
+(pdftex.def)             Requested size: 216.38959pt x 170.71652pt.
 
-Package textpos Warning: environment textblock* not in vertical mode. 
-(textpos)                Environment textblock* should not have any text
-(textpos)                or printable material appearing before it.
-(textpos)                Alignment may work out wrongly. on input line 15.
-
-
-Overfull \hbox (234.00032pt too wide) in paragraph at lines 6--15
-[][]
+Overfull \hbox (536.00076pt too wide) in paragraph at lines 20--37
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--15
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 15.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-Underfull \hbox (badness 10000) detected at line 19
-
+Overfull \hbox (536.00076pt too wide) detected at line 37
+[][] 
  []
 
 
-Overfull \hbox (234.00032pt too wide) detected at line 19
-[][]
+Overfull \hbox (36.0pt too wide) detected at line 37
+[][] 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Anth-47t.png> <./Anth-48
-t.png>] (./Figure1.aux) ) 
+ <./R1.jpg> <./T1.jpg> <./P1.jpg> <./ircCurvesw.pdf>] (./Figure3.aux) ) 
 Here is how much of TeX's memory you used:
- 2050 strings out of 494847
- 31099 string characters out of 6179079
- 82288 words of memory out of 5000000
- 5359 multiletter control sequences out of 15000+600000
- 6006 words of font info for 17 fonts, out of 8000000 for 9000
+ 2006 strings out of 494847
+ 30469 string characters out of 6179079
+ 84288 words of memory out of 5000000
+ 5319 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  39i,19n,56p,233b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Figure1.pdf (1 page, 258808 bytes).
+
+Output written on Figure3.pdf (1 page, 170889 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 9 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

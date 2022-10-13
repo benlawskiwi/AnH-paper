@@ -45,8 +45,8 @@ In this study, we prepare 9-hydroanthracenium cations exclusively in their vibra
 Anthracene protonated at the 9-position is considered $C_{2v}$ until proven otherwise. If the sp$^3$ carbon is considered as an insulator, the chromophore will consist of two aromatic rings linked by an sp$^2$-hybridized bridging carbon. The frontier orbitals of the aromatic rings can be taken in even and off combinations, resulting in sets of $b_1$ and $a_2$ symmetry. Only the $b_1$ set can interact with the bridge, which is also $b_1$. Of the highest occupied aromatic $b_1$ orbitals, one will have a node at the tertiary carbon atom adjacent to the bridge, and is not expected to be strongly perturbed. The other mixes with the bridging p-orbital and is lowered in energy. This results in two relatively unperturbed aromatic, symmetry-adapted orbitals of $a_2$ and $b_1$ symmetry. The lowest-energy unoccupied orbital is largely located on the bridge. The frontier orbitals are shown in Figure~\ref{Fig:1}.
 
 \begin{figure} [h]
-	\includegraphics[width=0.2\textwidth]{figures/Figure1}
-	\caption{goat}
+	\includegraphics[width=0.8\textwidth]{figures/Figure1}
+	\caption{Frontier orbitals of 9H-An$^+$ calculated at the M06-2X/cc-pvtz level. The HOMO has a node at the tertiary carbon adjacent to the $sp^2$ bridge, with electron density largely localised on the aromatic rings. Conversely, the LUMO is largely located on the bridging carbon. Therefore, the HOMO-LUMO transition represents electron transfer from the aromatic rings to the bridge.}
 	\label{Fig:1}
 \end{figure}
 
@@ -58,15 +58,15 @@ The pathway from the $C_{2v}$ to $C_s$ geometry can be described by the intrinsi
 
 \begin{figure} [h]
 	\includegraphics[width=0.8\textwidth]{figures/Figure2}
-	\caption{cat}
+	\caption{(a) A 2D representation of the $S_1$ excited state surface of 9H-An$^+$, along the forward and reverse IRC coordinates. The surface consists of 100 grid points calculated at the M06-2X/cc-pvtz level. The surface shows the two global minima, connected by a shallow (35~cm$^{-1}$) saddle point. (b) Higher excited state potential energy curves along a single IRC coordinate. The large energy separation between the $S_1$ and $S_2$ states, combined with the double well potential, reflects a two-state avoided crossing model. This suggests the presence of a strong adiabatic interaction between the $S_1$ and $S_2$ surfaces. }
 	\label{Fig:2}
 \end{figure}
 
 To visualise the charge transfer, electrostatic potential surfaces were evaluated at both the $C_{2v}$ and $C_s$ geometries, as shown in Figure~\ref{Fig:3}. The surfaces show that the positive charge largely resides on the $sp2$ bridge at the ground state $C_{2v}$ geometry. During excitation to the $S1$ state, the hole hops onto one of the aromatic rings, where it remains localised at the excited $C_s$ geometry. This demonstrates that the shallow double well represents the abscissa of a Marcus charge transfer diagram, making protonated anthracene an excellent prototype for the study of intramolecular hole$-$transfer.
 
 \begin{figure} [h]
-	\includegraphics[width=0.8\textwidth]{figures/Fig3aa}
-	\caption{dog}
+	\includegraphics[width=0.8\textwidth]{figures/Figure3W}
+	\caption{Calculated charge density plots of 9H-An$^+$ at the $C_{2v}$ transition state geometry reveals that the hole is largely located on the bridge. Conversely, density plots at either of the $C_s$ excited geometries show the hole remains largely localised on one of the aromatic rings. Therefore, the 9H-An$^+$ cation represents an example of photo-induced charge transfer, as excitation of the molecule will result in the hole hopping from the central bridge onto one of the terminal rings.}
 	\label{Fig:3}
 \end{figure}
 
@@ -75,7 +75,7 @@ To visualise the charge transfer, electrostatic potential surfaces were evaluate
 The triple resonant photodissociation spectrum of protonated anthracene is shown in Figure~\ref{Fig:4}. The cations were prepared by resonantly ionizing the neutrals at threshold, and as such we can be certain that the spectra correspond to protonation (deuteronation) at the 9-position, the $C_{2v}$ species. The spectra reveal a number of progressions, possibly indicating a large geometry change between the ground and excited states of the cation. While the lowest energy geometry for the excited state possess $C_s$ symmetry, we may treat the excited state as approximately $C_{2v}$ as the transition state barrier (35~cm$^{-1}$) is below the zero point energy.  
 
 \begin{figure} [h]
-	\includegraphics[width=1\textwidth]{figures/9H-An+w}
+	\includegraphics[width=1\textwidth]{figures/9H-An+sw}
 	\caption{dog}
 	\label{Fig:4}
 \end{figure}
@@ -135,9 +135,15 @@ By combining the information from the harmonic Franck-Condon, anharmonic resonan
 \subsection{Charge-Transfer Coordinate}
 The photo-induced charge-transfer process may be understood by considering the vibrational motion involved in the symmetry-breaking geometry change from $C_{2v}$ to $C_s$. The normal mode coordinates that point in the same direction as the intrinsic reaction coordinate can be identified by calculating the cosine similarity
 \begin{equation}
-	\cos(\theta) = \frac{Q_n\cdot Q_{\text{IRC}}}{||Q_n||~||Q_{\text{IRC}}||},
+	\cos(\theta) = \frac{Q_n\cdot Q_{\text{IRC}}}{||Q_n||~||Q_{\text{IRC}}||} = \frac{1}{25} \displaystyle\sum_{j=1}^{25}\frac{q_j(x,y,z)\cdot r_j(x,y,z)}{||q_j(x,y,z)||~||r_j(x,y,z)||},
 \end{equation}
-where $Q_n$ is the normal mode coordinate and $Q_{\text{IRC}}$ is the intrinsic reaction coordinate from Figure~\ref{Fig:2}. The resulting similarities are shown for each vibrational mode in Figure~\ref{Fig5}.
+where $Q_n$ is the normal mode coordinate and $Q_{\text{IRC}}$ is the intrinsic reaction coordinate from Figure~\ref{Fig:2}. Cosine Similarities were calculated for each normal mode coordinate of the C$_{2v}$ excited transition state by summing over the 3-D vector overlaps for each atom in the molecule. The resulting similarities are shown for each vibrational mode in Figure~\ref{Fig:5}.
+
+\begin{figure} [h]
+	\includegraphics[width=0.5\textwidth]{figures/Figure5}
+	\caption{Cosine Similarity measurements between the IRC coordinate and each normal mode of the $C_{2v}$ excited transition state of 9H-An$^+$. The normal mode coordinates were calculated at the M06-2X/cc-pvtz level. The corresponding cosine similarities were then calculated for each mode by summing the vector overlaps for each atom in the molecule. Similarities were calculated in both the forward and reverse direction, with the largest similarity for each mode shown in the Figure. This highlights that the symmetry breaking coordinate is described by in-plane $b_2$ motion. Prominent modes in the triple resonance spectrum, all have relatively large Similarities, confirming that the active modes point in the same direction as the charge-transfer coordinate.}
+	\label{Fig:5}
+\end{figure}
 
 Unsurprisingly, the imaginary $b_2$ saddle point frequency was the closest to the IRC coordinate. Other in-plane $b_2$ modes also point in the same direction, including modes $v_{50}$ and $v_{57}$. These HT coupled modes are active in the triple resonance spectrum in Figure~\ref{Fig:4}, confirming that they are likely involved in the hole-transfer process. %add mode description
 Notably, no single mode lies predominately along the IRC, instead it must be described by a combination of different in-plane $b_2$ vibrations. Therefore, the charge-transfer process is not mediated by a single vibrational excitation.
@@ -146,7 +152,7 @@ Notably, no single mode lies predominately along the IRC, instead it must be des
 To investigate the system further, the deuterated cation 9D-An$^+$ was also studied. The cations were prepared by resonantly ionizing the dihydroanthracenyl neutral radicals at threshold, generating cold cations deuterated exclusively at the 9-position. The resulting triple-resonant photodissociation spectrum of 9D-An$^+$ is shown in Figure~\ref{Fig:6}. The experimental spectrum is shown alongside a simulated spectrum that was constructed through the combination of FC, anharmonic, and HT vibronic coupling calculations, using the same method that was described for 9H-An$^+$ above.
 
 \begin{figure} [h]
-	\includegraphics[width=1\textwidth]{figures/9D-An+w}
+	\includegraphics[width=1\textwidth]{figures/9D-An+sw}
 	\caption{dog}
 	\label{Fig:6}
 \end{figure}
