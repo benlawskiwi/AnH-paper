@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{8}
+\begin{mcitethebibliography}{29}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -26,11 +26,114 @@
   {\relax}
   {\relax}
 
-\bibitem[Campbell \latin{et~al.}(2015)Campbell, Holz, Gerlich, and
-  Maier]{cam15}
-Campbell,~E.~K.; Holz,~M.; Gerlich,~D.; Maier,~J.~P. Laboratory confirmation of
-  C60+ as the carrier of two diffuse interstellar bands. \emph{Nature}
-  \textbf{2015}, \emph{523}, 322--323\relax
+\bibitem[Wahadoszamen \latin{et~al.}(2014)Wahadoszamen, Margalit, van
+  Grondelle, and Noy]{wah14}
+Wahadoszamen,~M.; Margalit,~I.; van Grondelle,~R.; Noy,~D. The role of
+  charge-transfer states in energy transfer and dissipation within natural and
+  artificial bacteriochlorophyll proteins. \emph{Nature Communications}
+  \textbf{2014}, \emph{5}, 5287\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Coropceanu \latin{et~al.}(2019)Coropceanu, Chen, Wang, Zheng, and
+  Brédas]{cor19}
+Coropceanu,~V.; Chen,~X.-K.; Wang,~T.; Zheng,~Z.; Brédas,~J.-L.
+  Charge-transfer electronic states in organic solar cells. \emph{Nature
+  Reviews Materials} \textbf{2019}, \emph{4}, 689--707\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zheng \latin{et~al.}(2017)Zheng, Tummala, Fu, Coropceanu, and
+  Brédas]{zhe17}
+Zheng,~Z.; Tummala,~N.~R.; Fu,~Y.-T.; Coropceanu,~V.; Brédas,~J.-L.
+  Charge-Transfer States in Organic Solar Cells: Understanding the Impact of
+  Polarization, Delocalization, and Disorder. \emph{ACS Applied Materials \&
+  Interfaces} \textbf{2017}, \emph{9}, 18095--18102\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Listorti \latin{et~al.}(2011)Listorti, O’Regan, and Durrant]{lis11}
+Listorti,~A.; O’Regan,~B.; Durrant,~J.~R. Electron Transfer Dynamics in
+  Dye-Sensitized Solar Cells. \emph{Chemistry of Materials} \textbf{2011},
+  \emph{23}, 3381--3399\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Palotás \latin{et~al.}(2021)Palotás, Martens, Berden, and
+  Oomens]{pal21}
+Palotás,~J.; Martens,~J.; Berden,~G.; Oomens,~J. Laboratory IR spectroscopy of
+  protonated hexa-peri-hexabenzocoronene and dicoronylene. \emph{Journal of
+  Molecular Spectroscopy} \textbf{2021}, \emph{378}, 111474\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Knorke \latin{et~al.}(2009)Knorke, Langer, Oomens, and Dopfer]{kno09}
+Knorke,~H.; Langer,~J.; Oomens,~J.; Dopfer,~O. Infrared spectra of isolated
+  protonated polycyclic aromatic hydrocarbon molecules. \emph{The Astrophysical
+  Journal} \textbf{2009}, \emph{706}, L66--L70\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lorenz \latin{et~al.}(2007)Lorenz, Solcà, Lemaire, Maître, and
+  Dopfer]{lor07}
+Lorenz,~U.; Solcà,~N.; Lemaire,~J.; Maître,~P.; Dopfer,~O. Infrared Spectra
+  of Isolated Protonated Polycyclic Aromatic Hydrocarbons: Protonated
+  Naphthalene. \emph{Angewandte Chemie International Edition} \textbf{2007},
+  \emph{46}, 6714--6716\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Noble} \latin{et~al.}(2015){Noble}, {Dedonder}, and {Jouvet}]{nob15}
+{Noble},~J.~A.; {Dedonder},~C.; {Jouvet},~C. {The electronic spectra of
+  protonated nitrogen-substituted polycyclic aromatic hydrocarbon molecules}.
+  \emph{Astronomy \& Astophysics} \textbf{2015}, \emph{577}, A79\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Alata \latin{et~al.}(2010)Alata, Dedonder, Broquier, Marceca, and
+  Jouvet]{ala10}
+Alata,~I.; Dedonder,~C.; Broquier,~M.; Marceca,~E.; Jouvet,~C. Role of the
+  Charge-Transfer State in the Electronic Absorption of Protonated Hydrocarbon
+  Molecules. \emph{Journal of the American Chemical Society} \textbf{2010},
+  \emph{132}, 17483--17489\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chakraborty \latin{et~al.}(2009)Chakraborty, Omidyan, Alata, Nielsen,
+  Dedonder, Broquier, and Jouvet]{cha09}
+Chakraborty,~S.; Omidyan,~R.; Alata,~I.; Nielsen,~I.~B.; Dedonder,~C.;
+  Broquier,~M.; Jouvet,~C. Protonated Benzene Dimer: An Experimental and Ab
+  Initio Study. \emph{Journal of the American Chemical Society} \textbf{2009},
+  \emph{131}, 11091--11097\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Alata \latin{et~al.}(2010)Alata, Omidyan, Broquier, Dedonder, Dopfer,
+  and Jouvet]{ala10b}
+Alata,~I.; Omidyan,~R.; Broquier,~M.; Dedonder,~C.; Dopfer,~O.; Jouvet,~C.
+  Effect of protonation on the electronic structure of aromatic molecules:
+  naphthaleneH+. \emph{Phys. Chem. Chem. Phys.} \textbf{2010}, \emph{12},
+  14456--14458\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Alata \latin{et~al.}(2013)Alata, Bert, Broquier, Dedonder, Feraud,
+  Grégoire, Soorkia, Marceca, and Jouvet]{ala13}
+Alata,~I.; Bert,~J.; Broquier,~M.; Dedonder,~C.; Feraud,~G.; Grégoire,~G.;
+  Soorkia,~S.; Marceca,~E.; Jouvet,~C. Electronic Spectra of the Protonated
+  Indole Chromophore in the Gas Phase. \emph{The Journal of Physical Chemistry
+  A} \textbf{2013}, \emph{117}, 4420--4427\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -41,6 +144,15 @@ Krechkivska,~O.; Liu,~Y.; Lee,~K. L.~K.; Nauta,~K.; Kable,~S.~H.;
   Schmidt,~T.~W. Triple-Resonance Spectroscopy Reveals the Excitation Spectrum
   of Very Cold, Isomer-Specific Protonated Naphthalene. \emph{The Journal of
   Physical Chemistry Letters} \textbf{2013}, \emph{4}, 3728--3732\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Campbell \latin{et~al.}(2015)Campbell, Holz, Gerlich, and
+  Maier]{cam15}
+Campbell,~E.~K.; Holz,~M.; Gerlich,~D.; Maier,~J.~P. Laboratory confirmation of
+  C60+ as the carrier of two diffuse interstellar bands. \emph{Nature}
+  \textbf{2015}, \emph{523}, 322--323\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -64,21 +176,37 @@ Meyer,~M.; Martini,~P.; Schiller,~A.; Zappa,~F.; Krasnokutski,~S.~A.;
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Alata \latin{et~al.}(2010)Alata, Dedonder, Broquier, Marceca, and
-  Jouvet]{ala10}
-Alata,~I.; Dedonder,~C.; Broquier,~M.; Marceca,~E.; Jouvet,~C. Role of the
-  Charge-Transfer State in the Electronic Absorption of Protonated Hydrocarbon
-  Molecules. \emph{Journal of the American Chemical Society} \textbf{2010},
-  \emph{132}, 17483--17489\relax
+\bibitem[Tielens(2008)]{tie08}
+Tielens,~A. Interstellar Polycyclic Aromatic Hydrocarbon Molecules.
+  \emph{Annual Review of Astronomy and Astrophysics} \textbf{2008}, \emph{46},
+  289--337\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hudgins \latin{et~al.}(2001)Hudgins, Bauschlicher, and
+  Allamandola]{hud01}
+Hudgins,~D.~M.; Bauschlicher,~C.~W.; Allamandola,~L.~J. Closed-shell polycyclic
+  aromatic hydrocarbon cations: a new category of interstellar polycyclic
+  aromatic hydrocarbons. \emph{Spectrochimica Acta Part A: Molecular and
+  Biomolecular Spectroscopy} \textbf{2001}, \emph{57}, 907--930\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pathak and Sarre(2008)Pathak, and Sarre]{pat08}
+Pathak,~A.; Sarre,~P. Protonated PAHs as carriers of diffuse interstellar
+  bands. \emph{Monthly Notices of the Royal Astronomical Society: Letters}
+  \textbf{2008}, \emph{391}, L10–L14\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Garkusha \latin{et~al.}(2011)Garkusha, Fulara, Nagy, and Maier]{gar11}
-Garkusha,~I.; Fulara,~J.; Nagy,~A.; Maier,~J.~P. {ELECTRONIC} {ABSORPTION}
-  {SPECTRA} {OF} {PROTONATED} {ANTHRACENES} {AND} {PHENANTHRENES}, {AND}
-  {THEIR} {NEUTRALS} {IN} {NEON} {MATRICES}. \emph{The Astrophysical Journal}
-  \textbf{2011}, \emph{728}, 131\relax
+Garkusha,~I.; Fulara,~J.; Nagy,~A.; Maier,~J.~P. Electronic absorption spectra
+  of protonated anthracenes and phenanthrenes and their neutrals in neon
+  matrices. \emph{The Astrophysical Journal} \textbf{2011}, \emph{728},
+  131\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -88,6 +216,77 @@ Li,~J.; Luo,~Y. The correct assignment of vibrationally-resolved absorption
   spectra of protonated anthracene isomers. \emph{Spectrochimica Acta Part A:
   Molecular and Biomolecular Spectroscopy} \textbf{2021}, \emph{244},
   118832\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Frisch \latin{et~al.}(2016)Frisch, Trucks, Schlegel, Scuseria, Robb,
+  Cheeseman, Scalmani, Barone, Petersson, Nakatsuji, Li, Caricato, Marenich,
+  Bloino, Janesko, Gomperts, Mennucci, Hratchian, Ortiz, Izmaylov, Sonnenberg,
+  Williams-Young, Ding, Lipparini, Egidi, Goings, Peng, Petrone, Henderson,
+  Ranasinghe, Zakrzewski, Gao, Rega, Zheng, Liang, Hada, Ehara, Toyota, Fukuda,
+  Hasegawa, Ishida, Nakajima, Honda, Kitao, Nakai, Vreven, Throssell,
+  Montgomery, Peralta, Ogliaro, Bearpark, Heyd, Brothers, Kudin, Staroverov,
+  Keith, Kobayashi, Normand, Raghavachari, Rendell, Burant, Iyengar, Tomasi,
+  Cossi, Millam, Klene, Adamo, Cammi, Ochterski, Martin, Morokuma, Farkas,
+  Foresman, and Fox]{g16}
+Frisch,~M.~J.; Trucks,~G.~W.; Schlegel,~H.~B.; Scuseria,~G.~E.; Robb,~M.~A.;
+  Cheeseman,~J.~R.; Scalmani,~G.; Barone,~V.; Petersson,~G.~A.; Nakatsuji,~H.
+  \latin{et~al.}  Gaussian16 {R}evision {C}.01. 2016; Gaussian Inc. Wallingford
+  CT\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schlegel()]{ber82}
+Schlegel,~H.~B. Optimization of equilibrium geometries and transition
+  structures. \emph{Journal of Computational Chemistry} \emph{3},
+  214--218\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hratchian and Schlegel(2004)Hratchian, and Schlegel]{hra04}
+Hratchian,~H.~P.; Schlegel,~H.~B. Accurate reaction paths using a Hessian based
+  predictor–corrector integrator. \emph{The Journal of Chemical Physics}
+  \textbf{2004}, \emph{120}, 9918--9924\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bloino and Barone(2012)Bloino, and Barone]{bio12}
+Bloino,~J.; Barone,~V. A second-order perturbation theory route to vibrational
+  averages and transition properties of molecules: General formulation and
+  application to infrared and vibrational circular dichroism spectroscopies.
+  \emph{The Journal of Chemical Physics} \textbf{2012}, \emph{136},
+  124108\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Burikov \latin{et~al.}(2010)Burikov, Dolenko, and arpov]{bur10}
+Burikov,~S.~A.; Dolenko,~T.~A.; arpov,~D.~M. The contribution of Fermi
+  resonance to the formation of the Raman valence band of water. \emph{Optics
+  and Spectroscopy} \textbf{2010}, \emph{109}, 272--278\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Baiardi \latin{et~al.}(2013)Baiardi, Bloino, and Barone]{bai13}
+Baiardi,~A.; Bloino,~J.; Barone,~V. General Time Dependent Approach to Vibronic
+  Spectroscopy Including Franck–Condon, Herzberg–Teller, and Duschinsky
+  Effects. \emph{Journal of Chemical Theory and Computation} \textbf{2013},
+  \emph{9}, 4097--4115\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Krechkivska \latin{et~al.}(2019)Krechkivska, Wilcox, Nauta, Kable, and
+  Schmidt]{kre19}
+Krechkivska,~O.; Wilcox,~C.~M.; Nauta,~K.; Kable,~S.~H.; Schmidt,~T.~W.
+  Quantum-Induced Symmetry Breaking in the Deuterated Dihydroanthracenyl
+  Radical. \emph{The Journal of Physical Chemistry A} \textbf{2019},
+  \emph{123}, 6711--6719\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

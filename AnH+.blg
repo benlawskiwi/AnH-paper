@@ -1,49 +1,55 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: AnH+.aux
 The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-AnH+.bib
 Database file #2: AnH+.bib
-achemso 2018/02/05 v3.11a
-You've used 8 entries,
-            2536 wiz_defined-function locations,
-            808 strings with 8455 characters,
-and the built_in function-call counts, 2901 in all, are:
-= -- 221
-> -- 176
-< -- 5
-+ -- 71
-- -- 63
-* -- 311
-:= -- 392
-add.period$ -- 14
-call.type$ -- 8
+I was expecting a `,' or a `}'---line 324 of file AnH+.bib
+ :  
+ :  year = {1982}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+achemso 2019-02-14 v3.12a
+You've used 29 entries,
+            2538 wiz_defined-function locations,
+            965 strings with 15052 characters,
+and the built_in function-call counts, 11898 in all, are:
+= -- 873
+> -- 866
+< -- 10
++ -- 330
+- -- 301
+* -- 1350
+:= -- 1613
+add.period$ -- 56
+call.type$ -- 29
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 8
-duplicate$ -- 166
-empty$ -- 185
-format.name$ -- 69
-if$ -- 548
+cite$ -- 29
+duplicate$ -- 604
+empty$ -- 713
+format.name$ -- 334
+if$ -- 2240
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 70
-num.names$ -- 21
-pop$ -- 14
+newline$ -- 196
+num.names$ -- 84
+pop$ -- 53
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 8
+skip$ -- 28
 stack$ -- 0
-substring$ -- 150
-swap$ -- 178
-text.length$ -- 14
+substring$ -- 638
+swap$ -- 792
+text.length$ -- 56
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 53
+type$ -- 200
 warning$ -- 0
-while$ -- 28
+while$ -- 105
 width$ -- 0
-write$ -- 119
+write$ -- 389
+(There was 1 error message)
