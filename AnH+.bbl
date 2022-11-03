@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{29}
+\begin{mcitethebibliography}{31}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -36,6 +36,15 @@ Wahadoszamen,~M.; Margalit,~I.; van Grondelle,~R.; Noy,~D. The role of
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Urbani \latin{et~al.}(2014)Urbani, Gr\"{a}tzel, Nazeeruddin, and
+  Torres]{urb14}
+Urbani,~M.; Gr\"{a}tzel,~M.; Nazeeruddin,~M.~K.; Torres,~T. Meso-Substituted
+  Porphyrins for Dye-Sensitized Solar Cells. \emph{Chemical Reviews}
+  \textbf{2014}, \emph{114}, 12330--12396\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Coropceanu \latin{et~al.}(2019)Coropceanu, Chen, Wang, Zheng, and
   Brédas]{cor19}
 Coropceanu,~V.; Chen,~X.-K.; Wang,~T.; Zheng,~Z.; Brédas,~J.-L.
@@ -55,18 +64,18 @@ Zheng,~Z.; Tummala,~N.~R.; Fu,~Y.-T.; Coropceanu,~V.; Brédas,~J.-L.
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Listorti \latin{et~al.}(2011)Listorti, O’Regan, and Durrant]{lis11}
-Listorti,~A.; O’Regan,~B.; Durrant,~J.~R. Electron Transfer Dynamics in
+\bibitem[Listorti \latin{et~al.}(2011)Listorti, O'Regan, and Durrant]{lis11}
+Listorti,~A.; O'Regan,~B.; Durrant,~J.~R. Electron Transfer Dynamics in
   Dye-Sensitized Solar Cells. \emph{Chemistry of Materials} \textbf{2011},
   \emph{23}, 3381--3399\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Palotás \latin{et~al.}(2021)Palotás, Martens, Berden, and
+\bibitem[Palot\'{a}s \latin{et~al.}(2021)Palot\'{a}s, Martens, Berden, and
   Oomens]{pal21}
-Palotás,~J.; Martens,~J.; Berden,~G.; Oomens,~J. Laboratory IR spectroscopy of
-  protonated hexa-peri-hexabenzocoronene and dicoronylene. \emph{Journal of
+Palot\'{a}s,~J.; Martens,~J.; Berden,~G.; Oomens,~J. Laboratory IR spectroscopy
+  of protonated hexa-peri-hexabenzocoronene and dicoronylene. \emph{Journal of
   Molecular Spectroscopy} \textbf{2021}, \emph{378}, 111474\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
@@ -80,9 +89,9 @@ Knorke,~H.; Langer,~J.; Oomens,~J.; Dopfer,~O. Infrared spectra of isolated
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Lorenz \latin{et~al.}(2007)Lorenz, Solcà, Lemaire, Maître, and
+\bibitem[Lorenz \latin{et~al.}(2007)Lorenz, Solc\'{a}, Lemaire, Maitre, and
   Dopfer]{lor07}
-Lorenz,~U.; Solcà,~N.; Lemaire,~J.; Maître,~P.; Dopfer,~O. Infrared Spectra
+Lorenz,~U.; Solc\'{a},~N.; Lemaire,~J.; Maitre,~P.; Dopfer,~O. Infrared Spectra
   of Isolated Protonated Polycyclic Aromatic Hydrocarbons: Protonated
   Naphthalene. \emph{Angewandte Chemie International Edition} \textbf{2007},
   \emph{46}, 6714--6716\relax
@@ -157,6 +166,14 @@ Campbell,~E.~K.; Holz,~M.; Gerlich,~D.; Maier,~J.~P. Laboratory confirmation of
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Barbara \latin{et~al.}(1996)Barbara, Meyer, and Ratner]{bar96}
+Barbara,~P.~F.; Meyer,~T.~J.; Ratner,~M.~A. Contemporary Issues in Electron
+  Transfer Research. \emph{The Journal of Physical Chemistry} \textbf{1996},
+  \emph{100}, 13148--13168\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Jochims \latin{et~al.}(1999)Jochims, Baumgartel, and Leach]{joc99}
 Jochims,~H.~W.; Baumgartel,~H.; Leach,~S. Structure-dependent Photostability of
   Polycyclic Aromatic Hydrocarbon Cations: Laboratory Studies and Astrophysical
@@ -220,6 +237,16 @@ Li,~J.; Luo,~Y. The correct assignment of vibrationally-resolved absorption
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Krechkivska \latin{et~al.}(2019)Krechkivska, Wilcox, Nauta, Kable, and
+  Schmidt]{kre19}
+Krechkivska,~O.; Wilcox,~C.~M.; Nauta,~K.; Kable,~S.~H.; Schmidt,~T.~W.
+  Quantum-Induced Symmetry Breaking in the Deuterated Dihydroanthracenyl
+  Radical. \emph{The Journal of Physical Chemistry A} \textbf{2019},
+  \emph{123}, 6711--6719\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Frisch \latin{et~al.}(2016)Frisch, Trucks, Schlegel, Scuseria, Robb,
   Cheeseman, Scalmani, Barone, Petersson, Nakatsuji, Li, Caricato, Marenich,
   Bloino, Janesko, Gomperts, Mennucci, Hratchian, Ortiz, Izmaylov, Sonnenberg,
@@ -274,19 +301,9 @@ Burikov,~S.~A.; Dolenko,~T.~A.; arpov,~D.~M. The contribution of Fermi
 \EndOfBibitem
 \bibitem[Baiardi \latin{et~al.}(2013)Baiardi, Bloino, and Barone]{bai13}
 Baiardi,~A.; Bloino,~J.; Barone,~V. General Time Dependent Approach to Vibronic
-  Spectroscopy Including Franck–Condon, Herzberg–Teller, and Duschinsky
+  Spectroscopy Including Franck-Condon, Herzberg-Teller, and Duschinsky
   Effects. \emph{Journal of Chemical Theory and Computation} \textbf{2013},
   \emph{9}, 4097--4115\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Krechkivska \latin{et~al.}(2019)Krechkivska, Wilcox, Nauta, Kable, and
-  Schmidt]{kre19}
-Krechkivska,~O.; Wilcox,~C.~M.; Nauta,~K.; Kable,~S.~H.; Schmidt,~T.~W.
-  Quantum-Induced Symmetry Breaking in the Deuterated Dihydroanthracenyl
-  Radical. \emph{The Journal of Physical Chemistry A} \textbf{2019},
-  \emph{123}, 6711--6719\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
